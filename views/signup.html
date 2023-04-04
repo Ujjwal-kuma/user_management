@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    <h1>Signup Here</h1>
+    <fieldset>
+        <form action="/signup" method="post" enctype="multipart/form-data">
+            <label for="profile">Profile Photo</label><br>
+            <input type = "file" name="image" class="image"><br><br>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" class="fname"><br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" class="lname"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" class="email"><br><br>
+            <label for="phone">Phone</label>
+            <input type="number" name="phone" class="phone"><br><br>
+            <label for="address">Address</label>
+            <textarea type="text" class="address" name="address"></textarea><br><br>
+            <label for="password">Password</label>
+            <input type="text" name="password" class="password"><br><br>
+            <input type="submit" class="submit">
+        </form>
+    </fieldset>
+</body>
+</html>

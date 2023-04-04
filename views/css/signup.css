@@ -1,0 +1,13 @@
+h1{
+    color:chartreuse;
+    text-align: center;
+    background-color: black;
+}
+fieldset{
+    background-color: rgb(15, 219, 25);
+    width: 400px;
+    margin-left: 600px;
+}
+body{
+    background-color: rgb(15, 219, 25);
+}

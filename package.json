@@ -1,0 +1,22 @@
+{
+  "name": "demo-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jquery": "^3.6.4",
+    "mongoose": "^7.0.1",
+    "multer": "^1.4.5-lts.1",
+    "node": "^19.6.1",
+    "nodemon": "^2.0.21"
+  }
+}

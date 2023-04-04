@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color:chartreuse;
+    background-color: black;
+}
+fieldset{
+    background-color: aqua;
+    width:100px;
+    margin-left: 680px;
+}

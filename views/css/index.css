@@ -1,0 +1,11 @@
+.nav {
+    text-align: center;
+    background-color: black;
+    font-size: larger;
+    height:1cm;
+}
+a{
+    color:aliceblue;
+    padding:1cm;
+    border: 2px solid white;
+}
